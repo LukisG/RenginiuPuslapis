@@ -1,0 +1,52 @@
+.combinedmain {
+  margin-top: 25px;
+}
+
+.carousel {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 900px) {
+  .carousel {
+    width: auto;
+    height: auto;
+  }
+}
+
+.resize {
+  width: 1920px;
+}
+
+@media (max-width: 900px) {
+  .resize {
+    width: auto;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 560px) {
+  .responsive h2 {
+    font-size: 100%;
+  }
+
+  .responsive p {
+    font-size: 90%;
+  }
+
+  .responsive button {
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .resize {
+    height: 400px;
+  }
+}
+
+@media (max-width: 560px) {
+  .resize {
+    height: 350px;
+  }
+}

@@ -1,0 +1,32 @@
+.modalBackground {
+  margin-top: -108px;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #f1f1f1; */
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modalContainer {
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    z-index: 9999;
+}
+
+.titleCloseBtn{
+
+    width: 40px;
+    margin-bottom: 1rem;
+    z-index: 9999;
+}
+.label, .title {
+  color: black;
+  z-index: 9999;
+}
